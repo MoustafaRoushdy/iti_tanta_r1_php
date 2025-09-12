@@ -1,1 +1,26 @@
 this is a change
+
+Working Area
+
+Staging Area
+
+Commited Area
+
+
+git config user.name <username>
+git config user.email <email>
+
+git init   => initialzie git 
+git add  <filename/s>  => add files to the Staging
+git commit -m <commit message>
+git commit -am <commit message> => add and commit with a single command "doesn't work with untracked files"
+git status  => to see status for current working/staging Area
+git log     => to see the logs of the commits already doesn
+.gitignore  => add file names you don't want git to track here 
+git --help => to list git availabe commands
+git help <specific command> | git <command> --help
+
+
+git log --name-only => list the names of files updated
+git log --oneline   => see logs with a commit in each entry
+git log -n <numberofcommits> => to see a specfic number of commits
